@@ -1,0 +1,172 @@
+/* Global */
+
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgb(173, 221, 224);
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Main */
+
+.content {
+    background-color: #fff;
+    width: 470px;
+    height: 620px;
+}
+
+.main-content {
+    display: flex;
+    background-color: rgb(27, 116, 189);
+}
+
+.main-list {
+    display: flex;
+    align-items: center;
+}
+
+.main-item {
+    color: #fff;
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 242px;
+    list-style-type: disc;
+}
+
+.main-content-hero {
+    display: flex;
+}
+
+.hero-heading {
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 40px;
+    color: rgb(138, 138, 138);
+}
+
+.hero-heading::before {
+    display: inline-block;
+    content: "";
+    width: 180px;
+    height: 1px;
+    background: #000000;
+    margin-bottom: 3px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.hero-heading::after {
+    display: inline-block;
+    content: "";
+    width: 180px;
+    height: 1px;
+    background: #000000;
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+
+.hero-content-main {
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.hero-content-maiin {
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.hero-spaan {
+    margin-left: 309px;
+}
+
+.hero-text {
+    margin: 0;
+    margin-top: 5px;
+    width: 330px;
+    font-family: "Opan Sans", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    background-color: rgb(194, 210, 235);
+    padding: 10px;
+}
+
+.hero-ttext {
+    margin: 0;
+    width: 350px;
+    margin-top: 5px;
+    font-family: "Opan Sans", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    background-color: rgb(188, 191, 196);
+    padding: 10px;
+}
+
+.hero-teext {
+    margin: 0;
+    width: 100px;
+    margin-top: 5px;
+    font-family: "Opan Sans", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    background-color: rgb(194, 210, 235);
+    padding: 10px;
+}
+
+.hero-textt {
+    margin: 0;
+    width: 225px;
+    margin-top: 5px;
+    font-family: "Opan Sans", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    background-color: rgb(248, 166, 234);
+    padding: 10px;
+}
+
+.hero-content-mainn {
+    margin-bottom: 40px;
+    margin-left: 221px;
+}
+
+.rectangle {
+    width: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+
+.footer-heading {
+    font-family: "Opan sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 195px;
+    color: rgb(173, 168, 168);
+    border-left: 1px solid #000;
+}
+
+.footer-heding {
+    font-family: "Opan sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: blue;
+}
