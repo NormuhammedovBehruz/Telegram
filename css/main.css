@@ -154,14 +154,17 @@ body {
     align-items: center;
 }
 
-.footer-heading {
+.global-search {
+    padding: 20px;
+    border: none;
+    margin-right: auto;
+}
+
+.global-input {
+    border: none;
     font-family: "Opan sans", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    margin-left: 20px;
-    margin-right: 195px;
-    color: rgb(173, 168, 168);
-    border-left: 1px solid #000;
 }
 
 .footer-heding {
@@ -169,4 +172,5 @@ body {
     font-weight: 700;
     font-size: 20px;
     color: blue;
+    margin-right: 20px;
 }
